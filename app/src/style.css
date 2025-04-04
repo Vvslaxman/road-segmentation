@@ -1,0 +1,76 @@
+/* Apply a dark background with gold accents */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+    width: 400px;
+  }
+  
+  h1 {
+    color: #FFD700;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #444;
+    border: 2px solid #FFD700;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .upload-btn {
+    background-color: #FFD700;
+    color: black;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .upload-btn:hover {
+    background-color: #FFC107;
+  }
+  
+  /* Loading spinner */
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #FFD700;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-top: 20px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
